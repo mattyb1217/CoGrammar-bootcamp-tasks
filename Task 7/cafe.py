@@ -22,7 +22,6 @@ price_dict={
     "sandwiches": 2.25
 }
 
-start=1 
 
 indiv_value= {x:stock_dict[x] *  price_dict.get (x)
               for x in stock_dict.keys()}
